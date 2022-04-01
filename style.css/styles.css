@@ -1,5 +1,10 @@
+ .card-img-top{
+     display:flex;
+     background-color: lightcoral;
+
+ }
  
-.b-great-pet{
+ .b-great-pet{
     height: 3rem;
     background-color: aquamarine;
     border:soid rgba(18, 181, 105, 0.15);
@@ -7,4 +12,21 @@
 box-shadow: inset 0 .5em rgb(0, rgb(128, 128, 0), 0);
 
 
+}
+.card-header{
+    background-color: indianred;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(58, 140, 143);
+    background-clip: border-box;
+    border: 1px solid rgba(69, 37, 165, 0.125);
+    border-radius: 0.25rem;
+}
+.border-top{
+    border-top: 1px solid #20cfb8!important;
 }
